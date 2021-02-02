@@ -1,0 +1,18 @@
+<div class="a-flex">
+    <div>
+        <div class="hd-cnt">Delete Book Details</div>
+    </div>
+    <div>
+        <button mat-icon-button (click)="onNoClick()">
+            <mat-icon>close</mat-icon>
+        </button>
+    </div>
+</div>
+<div>
+    <div class="info-cnt">Do you want to delete the Details?</div>
+    <div class="btn-wrapper">
+        <button mat-stroked-button color="primary" (click)="onNoClick()" class="a-mr-05">Cancel</button>
+        <button mat-flat-button color="warn" (click)="delete()">Delete</button>
+    </div>
+    
+</div>
